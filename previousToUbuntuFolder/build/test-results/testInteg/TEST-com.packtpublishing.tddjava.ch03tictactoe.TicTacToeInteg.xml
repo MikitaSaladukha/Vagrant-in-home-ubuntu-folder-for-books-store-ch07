@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeInteg" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-03-18T09:23:30" hostname="mikkita-TM1701" time="0.98">
+  <properties/>
+  <testcase name="givenMongoDbIsRunningWhenPlayThenNoException" classname="com.packtpublishing.tddjava.ch03tictactoe.TicTacToeInteg" time="0.98"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

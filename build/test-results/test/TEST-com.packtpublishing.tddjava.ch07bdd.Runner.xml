@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.packtpublishing.tddjava.ch07bdd.Runner" tests="1" skipped="0" failures="1" errors="0" timestamp="2020-03-31T08:27:08" hostname="mikkita-TM1701" time="0.847">
+  <properties/>
+  <testcase name="run" classname="com.packtpublishing.tddjava.ch07bdd.Runner" time="0.847">
+    <failure message="org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=1,storiesNotAllowed=0,storiesPending=0,scenarios=5,scenariosFailed=5,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=6]" type="org.jbehave.core.embedder.Embedder$RunningStoriesFailed">org.jbehave.core.embedder.Embedder$RunningStoriesFailed: Failures in running stories: ReportsCount[stories=1,storiesNotAllowed=0,storiesPending=0,scenarios=5,scenariosFailed=5,scenariosNotAllowed=0,scenariosPending=0,stepsFailed=6]
+	at org.jbehave.core.embedder.Embedder$ThrowingRunningStoriesFailed.handleFailures(Embedder.java:525)
+	at org.jbehave.core.embedder.Embedder.handleFailures(Embedder.java:269)
+	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:256)
+	at org.jbehave.core.embedder.Embedder.generateReportsView(Embedder.java:237)
+	at org.jbehave.core.embedder.Embedder.runStoriesAsPaths(Embedder.java:213)
+	at org.jbehave.core.junit.JUnitStories.run(JUnitStories.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.runTestClass(JUnitTestClassExecutor.java:110)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:58)
+	at org.gradle.api.internal.tasks.testing.junit.JUnitTestClassExecutor.execute(JUnitTestClassExecutor.java:38)
+	at org.gradle.api.internal.tasks.testing.junit.AbstractJUnitTestClassProcessor.processTestClass(AbstractJUnitTestClassProcessor.java:62)
+	at org.gradle.api.internal.tasks.testing.SuiteTestClassProcessor.processTestClass(SuiteTestClassProcessor.java:51)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.dispatch.ContextClassLoaderDispatch.dispatch(ContextClassLoaderDispatch.java:32)
+	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
+	at com.sun.proxy.$Proxy2.processTestClass(Unknown Source)
+	at org.gradle.api.internal.tasks.testing.worker.TestWorker.processTestClass(TestWorker.java:118)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:35)
+	at org.gradle.internal.dispatch.ReflectionDispatch.dispatch(ReflectionDispatch.java:24)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:175)
+	at org.gradle.internal.remote.internal.hub.MessageHubBackedObjectConnection$DispatchWrapper.dispatch(MessageHubBackedObjectConnection.java:157)
+	at org.gradle.internal.remote.internal.hub.MessageHub$Handler.run(MessageHub.java:404)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+</failure>
+  </testcase>
+  <system-out><![CDATA[Processing system properties {}
+Using controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,failOnStoryTimeout=false,threads=1]
+
+(BeforeStories)
+
+Running story file:stories/administration.story
+
+(file:stories/administration.story)
+Narrative:
+In order to manage the book store collection
+As a store administrator
+I want to be able to add, update and remove books
+com.packtpublishing.tddjava.ch07bdd.Steps.beforeStory() (FAILED)
+(org.jbehave.core.failures.BeforeOrAfterFailed: Method beforeStory (annotated with @BeforeStory in class com.packtpublishing.tddjava.ch07bdd.Steps) failed: java.lang.NoClassDefFoundError: org/openqa/selenium/internal/Killable)
+Scenario: Book details form should have all fields
+Given user is on the books screen (FAILED)
+(java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException)
+Then field bookId exists (NOT PERFORMED)
+Then field bookTitle exists (NOT PERFORMED)
+Then field bookAuthor exists (NOT PERFORMED)
+Then field bookDescription exists (NOT PERFORMED)
+
+Scenario: User should be able to create a new book
+Given user is on the books screen (FAILED)
+(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+When user clicks the button newBook (NOT PERFORMED)
+When user sets values to the book form (NOT PERFORMED)
+When user clicks the button saveBook (NOT PERFORMED)
+Then book is stored (NOT PERFORMED)
+
+Scenario: User should be able to display book details
+Given user is on the books screen (FAILED)
+(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+When user selects a book (NOT PERFORMED)
+Then book form contains all data (NOT PERFORMED)
+
+Scenario: User should be able to update book details
+Given user is on the books screen (FAILED)
+(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+When user selects a book (NOT PERFORMED)
+When user sets new values to the book form (NOT PERFORMED)
+Then book is updated (NOT PERFORMED)
+
+Scenario: User should be able to delete a book
+Given user is on the books screen (FAILED)
+(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+When user selects a book (NOT PERFORMED)
+When user clicks the button deleteBook (NOT PERFORMED)
+Then book is removed (NOT PERFORMED)
+
+
+
+(AfterStories)
+
+Generating reports view to '/home/mikkita/ubuntu/target/jbehave' using formats '[stats, console, html]' and view properties '{reports=ftl/jbehave-reports-with-totals.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, decorated=ftl/jbehave-report-decorated.ftl}'
+Reports view generated with 1 stories (of which 0 pending) containing 5 scenarios (of which 0 pending)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

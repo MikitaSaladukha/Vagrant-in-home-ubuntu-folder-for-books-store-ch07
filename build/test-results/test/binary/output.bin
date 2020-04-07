@@ -1,0 +1,56 @@
+ Processing system properties {}
+ôUsing controls EmbedderControls[batch=false,skip=false,generateViewAfterStories=true,ignoreFailureInStories=false,ignoreFailureInView=false,verboseFailures=false,verboseFiltering=false,storyTimeoutInSecs=300,failOnStoryTimeout=false,threads=1]
+
+(BeforeStories)
+
+0Running story file:stories/administration.story
+
+$(file:stories/administration.story)
+Narrative:
+-In order to manage the book store collection
+As a store administrator
+2I want to be able to add, update and remove books
+Acom.packtpublishing.tddjava.ch07bdd.Steps.beforeStory() (FAILED)
+ã(org.jbehave.core.failures.BeforeOrAfterFailed: Method beforeStory (annotated with @BeforeStory in class com.packtpublishing.tddjava.ch07bdd.Steps) failed: java.lang.NoClassDefFoundError: org/openqa/selenium/internal/Killable)
+3Scenario: Book details form should have all fields
++Given user is on the books screen (FAILED)
+V(java.lang.NoClassDefFoundError: org/openqa/selenium/remote/SessionNotFoundException)
+)Then field bookId exists (NOT PERFORMED)
+,Then field bookTitle exists (NOT PERFORMED)
+-Then field bookAuthor exists (NOT PERFORMED)
+2Then field bookDescription exists (NOT PERFORMED)
+
+3Scenario: User should be able to create a new book
++Given user is on the books screen (FAILED)
+d(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+4When user clicks the button newBook (NOT PERFORMED)
+7When user sets values to the book form (NOT PERFORMED)
+5When user clicks the button saveBook (NOT PERFORMED)
+$Then book is stored (NOT PERFORMED)
+
+6Scenario: User should be able to display book details
++Given user is on the books screen (FAILED)
+d(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+)When user selects a book (NOT PERFORMED)
+1Then book form contains all data (NOT PERFORMED)
+
+5Scenario: User should be able to update book details
++Given user is on the books screen (FAILED)
+d(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+)When user selects a book (NOT PERFORMED)
+;When user sets new values to the book form (NOT PERFORMED)
+%Then book is updated (NOT PERFORMED)
+
+/Scenario: User should be able to delete a book
++Given user is on the books screen (FAILED)
+d(java.lang.NoClassDefFoundError: Could not initialize class com.codeborne.selenide.WebDriverRunner)
+)When user selects a book (NOT PERFORMED)
+7When user clicks the button deleteBook (NOT PERFORMED)
+%Then book is removed (NOT PERFORMED)
+
+
+
+(AfterStories)
+
+èGenerating reports view to '/home/mikkita/ubuntu/target/jbehave' using formats '[stats, console, html]' and view properties '{reports=ftl/jbehave-reports-with-totals.ftl, nonDecorated=ftl/jbehave-report-non-decorated.ftl, maps=ftl/jbehave-maps.ftl, navigator=ftl/jbehave-navigator.ftl, views=ftl/jbehave-views.ftl, decorated=ftl/jbehave-report-decorated.ftl}'
+gReports view generated with 1 stories (of which 0 pending) containing 5 scenarios (of which 0 pending)
